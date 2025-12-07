@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.intro}>
           <h1>Hey Raj you succefully connected and built AWS EC2 with jenkins.</h1>
           <p>
-            Lesssssssssssssssss goooooooooooooooooooo!!!!!!!!!!{" "}
+            Lessssssssssss goooooooooooooo!!!!!!!!!!{" "}
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               target="_blank"
