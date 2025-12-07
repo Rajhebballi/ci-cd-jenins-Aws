@@ -14,7 +14,7 @@ export default function Home() {
           priority
         />
         <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
+          <h1>Hey Raj you succefully connected and built AWS EC2 with jenkins.</h1>
           <p>
             Looking for a starting point or more instructions? Head over to{" "}
             <a
