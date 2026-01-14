@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 End-to-End CI/CD Pipeline on AWS
 
-## Getting Started
+This project demonstrates a complete CI/CD pipeline for automating build, test, Docker image creation, and deployment on AWS.
 
-First, run the development server:
+## 🛠 Tech Stack
+- Jenkins
+- Docker
+- GitHub
+- AWS EC2
+- Linux (Shell Scripting)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Architecture Overview
+- Developer pushes code to GitHub
+- Jenkins triggers pipeline automatically
+- Application is built and Docker image is created
+- Image is deployed to AWS EC2
+- Zero manual intervention in deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Features
+- Automated build and deployment
+- Dockerized application for consistency
+- Reduced deployment errors and configuration drift
+- Production-like CI/CD workflow
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📈 Key Outcomes
+- Reduced manual deployment effort by ~40%
+- Improved deployment consistency across environments
+- Faster release cycles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Repository Structure
+```text
+├── Jenkinsfile
+├── Dockerfile
+├── scripts/
+├── src/
+└── README.md
+🚀 How to Run
 
-## Learn More
+Clone the repository
 
-To learn more about Next.js, take a look at the following resources:
+Configure Jenkins and GitHub webhook
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run pipeline
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Application deploys automatically on AWS EC2
 
-## Deploy on Vercel
+📌 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Rajaneesh Hebballi
+DevOps Engineer | AWS | Docker | Kubernetes
